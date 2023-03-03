@@ -1,7 +1,7 @@
 # Digital-Library-Management-System
 The Library Management system undertaken as a project is based on rele- vant technologies, which is an attempt to automate the existing library.
 # Portal-GUI
-**1. Vidyathi Portal Homepage**
+**1. Homepage**
 ![Screenshot (36)](https://user-images.githubusercontent.com/89139455/222629623-68cba7a5-9faf-4877-9429-5444377bb805.png)
 **2. Admin Login Page**
 ![Screenshot (37)](https://user-images.githubusercontent.com/89139455/222629659-37ae767c-1da6-4694-83ca-5165aa8e31d2.png)
