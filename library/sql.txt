@@ -1,0 +1,67 @@
+CREATE TABLE admin(
+    adminId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    adminName varchar(50) NOT NULL,
+    password varchar(50) NOT NULL,
+    username varchar(50) NOT NULL,
+    email varchar(50) NOT NULL
+	);
+    
+CREATE TABLE books(
+    bookId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    bookTitle varchar(50) NOT NULL,
+    author varchar(50) NOT NULL,
+    publisherName varchar(50) NOT NULL,
+    categories varchar(50) NOT NULL,
+    callNumber varchar(50) NOT NUll
+    );
+    
+CREATE TABLE student(
+    studentId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    email varchar(50) NOT NULL,
+    name varchar(50) NOT NULL,
+    department varchar(50) NOT NULL,
+    phoneNumber varchar(50) NOT NULL
+    );
+    
+CREATE TABLE borrow(
+    borrowId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    borrowDate varchar(50) NOT NULL,
+    returnDate varchar(50) NOT NULL,
+    studentID varchar(50) NOT NULL,
+    bookID varchar(50) NOT NULL
+    );
+
+CREATE TABLE admin(
+    adminId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    adminName varchar(50) NOT NULL,
+    password varchar(50) NOT NULL,
+    username varchar(50) NOT NULL,
+    email varchar(50) NOT NULL
+	);
+    
+CREATE TABLE books(
+    bookId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    bookTitle varchar(50) NOT NULL,
+    author varchar(50) NOT NULL,
+    ISBN varchar(30) NOT NULL,
+    publisherName varchar(50) NOT NULL,
+    categories varchar(50) NOT NULL,
+    callNumber varchar(50) NOT NUll
+    );
+    
+CREATE TABLE student(
+    studentId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id_no int(10) NOT NULL,
+    email varchar(50) NOT NULL,
+    name varchar(50) NOT NULL,
+    department varchar(50) NOT NULL,
+    phoneNumber varchar(50) NOT NULL
+    );
+    
+CREATE TABLE borrow(
+    borrowId int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    borrowDate varchar(50) NOT NULL,
+    returnDate varchar(50) NOT NULL,
+    studentID varchar(50) NOT NULL,
+    bookID varchar(50) NOT NULL
+    );
